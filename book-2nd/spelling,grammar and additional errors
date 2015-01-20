@@ -1,4 +1,4 @@
-SPELLING ERRORS:
+SPELLING AND GRAMMAR ERRORS:
 
 Page 8 => under the figure 2.3:
 All the functions related to the physical transmission “OF” information through a wire (or a wireless link) are usually known as the physical layer. (or -> of)
@@ -36,7 +36,7 @@ Page 167 => third paragraph:
 Unfortunately no datalink layer is able to send frames of unlimited “SIZE”.
 (side -> size)
 
-CONTENT ERROR
+CONTENT ERRORS:
 Page 42 => first paragraph => 1st line => They both need to be forwarded to R4, but R4 expects “label=0” for packets belonging to the virtual circuit originated by R2 and “label=1” for packets belonging to the other virtual circuit. => we assumed at page 41 that R5 wants to receive the packets from the virtual circuit created by R1 (resp. R2) with label=1 (label=0). So the forwarding table of R4 should be updated too.
 
 Page 96 => paragraph under figure 2.82 => in the figure, the router is R1 and under the figure, it talks about R2 
