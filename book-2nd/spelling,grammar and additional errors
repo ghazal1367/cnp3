@@ -1,0 +1,50 @@
+SPELLING ERRORS:
+
+Page 8 => under the figure 2.3:
+All the functions related to the physical transmission “OF” information through a wire (or a wireless link) are usually known as the physical layer. (or -> of)
+
+Page 9 => 1st paragraph, 2nd line => Electrical engineers are used to “PROCESS” streams of bits, but computer scientists usually prefer to deal with higher level concepts. (processing -> process)
+
+Page 12 => second paragraph, second line => If the server is faster “THAN” the client, it will be able to receive and process all the segments sent by the client and deliver their content to its user. (that -> than)
+
+Page 13 => under section “Reliable data transfer on top of an imperfect link”:
+“AT” first glance, loosing frames might seem strange on single link. (A -> At)
+
+Page 14 => 1st paragraph, 1st line => When the receiver receives a frame with an error detection code, it recomputes it and verifies whether the received error detection code matches the “COMPUTED” error detection code. (computer -> computed)
+
+Page 31 => line 6, the apostrophe!
+
+Page 41 => the paragraph below the circuit and above the forwarding table of R4:
+To create these virtual circuits, we need to configure the label forwarding “TABLES“ of all network nodes. => no apostrophe needed after tables (tables’ -> tables)
+
+Page 51 => first paragraph:
+“THERE” are two important models used to organise a networked application. (The -> There)
+
+Page 80 => 7th paragraph => 3rd line:
+If the objective of the router is to fairly distribute “THE” bandwidth of an output link among competing flows, one possibility is to organize the buffers of the router as a set of queues. (to -> the)
+
+Page 133 => the paragraph above the pseudo-code:
+Strings can also be “ENCODED” by using JSON. (encoding => encoded)
+
+Page 154 => last paragraph, second line:
+A first service brought by SCTP is the ability “TO” exchange messages instead of only a stream of bytes. (there should be a “to” after ability)
+
+Page 155 => 1st paragraph after the section 3.9.1 “SCTP segment”, third line:
+The first two fields “ARE” the Source and Destination ports that allow to identify the SCTP connection. (and -> are)
+
+Page 167 => third paragraph:
+Unfortunately no datalink layer is able to send frames of unlimited “SIZE”.
+(side -> size)
+
+CONTENT ERROR
+Page 42 => first paragraph => 1st line => They both need to be forwarded to R4, but R4 expects “label=0” for packets belonging to the virtual circuit originated by R2 and “label=1” for packets belonging to the other virtual circuit. => we assumed at page 41 that R5 wants to receive the packets from the virtual circuit created by R1 (resp. R2) with label=1 (label=0). So the forwarding table of R4 should be updated too.
+
+Page 96 => paragraph under figure 2.82 => in the figure, the router is R1 and under the figure, it talks about R2 
+
+Page 135:
+{ "jsonrpc": "2.0", "result": 4, "id": 1}
+{ "jsonrpc": "2.0", "error": {"code": -32601, "message": "Method not found"}, "id": "1"}
+the 1st ID does not have “” around it but the second one has it.
+
+Page 170:
+in the picture, we have university of liege with prefix “2001:6a8:2d80::/48” but in the paragraph above the image, it says that it uses “2001:6a8:2d80::/32”
